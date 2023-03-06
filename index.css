@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    background-color: #F1F3FF;
+}
+
+.background-color-home {
+    background: rgb(241,243,255); 
+    background: linear-gradient(180deg, rgba(241,243,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.btn {
+    border: none;
+    background-color: #5cb85f;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 2px;
+}
+
+.nav-link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.why-us-card {
+    min-height: 185px;
+}
+
+.car-height {
+    min-height: 500px;
+}
+
+.car {
+    position: absolute;
+    width: 50vw;
+    
+}
+
+.banner {
+    background-color: #0D28A6; 
+    color: white; 
+    border-radius: 13px;
+}
+
+.sosmed-icon {
+    margin-right: 15px;
+    size: 10px;
+}
+
+.list-navigation li {
+    list-style: none;
+}
+.card-carousel {
+    background: #F1F3FF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 50px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-image: none;
+}
+
+.carousel-control-next {
+    right: 115px !important;
+}
+
+.carousel-control-prev {
+    left: 115px !important;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: black;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: black;
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        margin-top: 12px;
+        margin-left: 12px;
+        align-self: flex-start;
+    }
+    .car {
+        margin-top: 50px;
+        position: absolute;
+        width: 100%; 
+    }
+    .car-height {
+        min-height: 330px;
+    }
+}
